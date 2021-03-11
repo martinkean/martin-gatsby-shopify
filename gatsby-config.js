@@ -39,7 +39,7 @@ module.exports = {
       options: {
         // The domain name of your Shopify shop. This is required.
         // Example: 'gatsby-source-shopify-test-shop' if your Shopify address is
-        // 'gatsby-source-shopify-test-shop.myshopify.com' .
+        // 'gatsby-source-shopify-test-shop.myshopify.com'.
         shopName: 'martin-gatsby-shop-netlify-one',
 
         // An API access token to your Shopify shop. This is required.
