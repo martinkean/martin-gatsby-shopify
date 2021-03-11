@@ -74,6 +74,30 @@ module.exports = {
         // set to false if you plan on using shopify's CDN
         downloadImages: true,
 
+        // Allow overriding the default queries
+        // This allows you to include/exclude extra fields when sourcing nodes
+        // Available keys are: articles, blogs, collections, products, shopPolicies, and pages
+        // Queries need to accept arguments for first and after
+        // You will need to include all the fields you want available for a
+        // specific key. View the `shopifyQueries Defaults` section below for a
+        // full list of keys and fields.
+        shopifyQueries: {
+          products: `
+          query GetProducts($first: Int!, $after: String) {
+            products(first: $first, after: $after) {
+              pageInfo {
+                hasNextPage
+              }
+              edges {
+                cursor
+                node {
+                  availableForSale
+                }
+              }
+            }
+          }
+        `,
+        },
       },
     },
     {
