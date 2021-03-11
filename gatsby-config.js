@@ -48,7 +48,7 @@ module.exports = {
         // to select "Allow this app to access your storefront data using the
         // Storefront API".
         // See: https://help.shopify.com/api/custom-storefronts/storefront-api/getting-started#authentication
-        accessToken: 'cd2b00045494d33b6f54515c296e0228',
+        accessToken: '50d6e7ade3932c7c37b69c28c55f6815',
 
         // Set the API version you want to use. For a list of available API versions,
         // see: https://help.shopify.com/en/api/storefront-api/reference/queryroot
