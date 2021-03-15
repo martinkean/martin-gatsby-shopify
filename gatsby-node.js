@@ -7,16 +7,7 @@ exports.createPages = ({ graphql, actions }) => {
       allShopifyProduct {
         edges {
           node {
-            id
-            title
             handle
-            productType
-            vendor
-            variants {
-              id
-              title
-              price
-            }
           }
         }
       }

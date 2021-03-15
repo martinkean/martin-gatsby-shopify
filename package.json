@@ -21,7 +21,7 @@
     "gatsby-plugin-root-import": "^2.0.6",
     "gatsby-plugin-sharp": "^2.14.1",
     "gatsby-source-filesystem": "^2.11.0",
-    "gatsby-source-shopify": "^3.10.0",
+    "gatsby-source-shopify": "^0.1.9",
     "gatsby-transformer-sharp": "^2.12.0",
     "isomorphic-fetch": "^3.0.0",
     "js-yaml": "^3.13.1",
