@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
   }
   `).then(result => {
-    result.data.products.edges.forEach(({ node }) => {
+    result.data.Products.edges.forEach(({ node }) => {
       createPage({
         path: `/product/${node.handle}/`,
         component: path.resolve(`./src/templates/ProductPage/index.js`),
