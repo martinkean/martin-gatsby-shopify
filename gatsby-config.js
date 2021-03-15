@@ -48,7 +48,7 @@ module.exports = {
         // to select "Allow this app to access your storefront data using the
         // Storefront API".
         // See: https://help.shopify.com/api/custom-storefronts/storefront-api/getting-started#authentication
-        accessToken: '50d6e7ade3932c7c37b69c28c55f6815',
+        accessToken: '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',
 
         // Set the API version you want to use. For a list of available API versions,
         // see: https://help.shopify.com/en/api/storefront-api/reference/queryroot
@@ -60,19 +60,6 @@ module.exports = {
         // much time was required to fetch and process the data.
         // Defaults to true.
         verbose: true,
-
-        // Number of records to fetch on each request when building the cache
-        // at startup. If your application encounters timeout errors during
-        // startup, try decreasing this number.
-        paginationSize: 250,
-
-        // List of collections you want to fetch.
-        // Possible values are: 'shop' and 'content'.
-        // Defaults to ['shop', 'content'].
-        includeCollections: ["shop", "content"],
-        // Download Images Locally
-        // set to false if you plan on using shopify's CDN
-        downloadImages: true,
       },
     },
     {
